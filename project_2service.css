@@ -1,0 +1,220 @@
+body{
+    font-family: 'DM Sans',sans-serif;
+  }
+.logo{
+    height: 88px;  
+    width: 88px;
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    background-image: url("logo-white.svg");
+    background-repeat: no-repeat;
+      
+
+} 
+div ul{
+  color: rgb(193, 191, 191);
+  position: absolute;
+  right: 20vw;
+  top: 22px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+div ul li a{
+
+  padding: 20px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+}
+div p{
+  color: white;
+  display: flex;
+  position: absolute;
+  right: 1vw;
+  top: 5px;
+  font-size: 1.4rem;
+  border: 2px solid white;
+  padding: 12px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 5px;
+
+}
+.nature{
+  color: white;
+  font-size: 110px;
+  display: block;
+  text-align: center;
+  margin-top: 200px;
+  font-family: 'Hind', sans-serif;
+
+}
+header::before{
+  background-image: url("services-hero.jpg");
+  content: "";
+  position: absolute;
+  width: 100vw;
+  height: 750px;
+background-repeat: no-repeat;
+  z-index: -1;
+  top: 0px;
+}
+.container{
+    width: 70vw;
+    height: 500px;
+    display: flex;
+    margin: auto;
+    margin-top: 250px;
+    justify-content: space-around;
+
+}
+.web{
+   width: 30vw;
+   height: 500px;
+   background-image: url("service-1.jpg");
+   background-repeat: no-repeat;
+   display: block;
+   margin: auto;
+
+}
+.design{
+    width: 30vw;
+    height: 500px;
+}
+.project{
+    font-size: 30px;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+.tell{
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 5px;
+    padding: 15px;
+
+}
+.benifit{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 5px;
+    padding: 15px;
+}
+.rs99{
+    font-size: 27px;
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
+.btn{
+    font-size: 20px;
+    width: 170px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 25px;
+
+}
+.graphic{
+    width: 30vw;
+    height: 500px;
+    background-image: url("service-2.jpg");
+    background-repeat: no-repeat;
+    display: block;
+    margin: auto;
+ 
+ }
+.content{
+    width: 30vw;
+    height: 500px;
+    background-image: url("service-3.jpg");
+    background-repeat: no-repeat;
+    display: block;
+    margin: auto;
+ 
+ }
+ .deepak{
+    width: 70vw;
+    height: 500px;
+    display: flex;
+    margin: auto;
+    margin-top: 80px;
+    justify-content: space-around;
+
+}
+.love{
+    width: 100vw;
+    height: 450px;
+    background-color: rgb(238, 240, 243);
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.native{
+  width: 40vw;
+  height: 450px;
+}
+.why{
+    font-size: 35px;
+    margin-top: 45px;
+    padding-left: 30px;
+}
+.customer{
+    font-size: 20px;
+    margin-top: 15px;
+    padding: 25px;
+}
+.badless{
+    font-size: 20px;
+    margin-top: 15px;
+    padding: 25px;
+}
+.rating{
+    width: 40vw;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.experience{
+    width: 18vw;
+    height: 200px;
+     margin-top: 10px;
+}
+.last{
+    width: 100vw;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+  }
+  .navigation{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 25px;
+    text-decoration: none;
+  }
+  .navigation li{
+    font-size:20px;
+    padding: 15px;
+    text-decoration: none;
+  }
+  .pogolast{
+      height: 88px;  
+      width: 88px;
+      background-image: url("logo-green.svg");
+      background-repeat: no-repeat;
+      margin-top: 15px;
+      margin-left: 15px;
+  
+  }
+  .tayler{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 245px;
+  
+  }
+  
+

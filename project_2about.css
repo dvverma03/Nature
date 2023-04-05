@@ -1,0 +1,192 @@
+body{
+  font-family: 'DM Sans',sans-serif;
+}
+.logo{
+    height: 88px;  
+    width: 88px;
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    background-image: url("logo-white.svg");
+    background-repeat: no-repeat;
+      
+
+} 
+div ul{
+  color: rgb(193, 191, 191);
+  position: absolute;
+  right: 20vw;
+  top: 22px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+div ul li a{
+
+  padding: 20px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+}
+div p{
+  color: white;
+  display: flex;
+  position: absolute;
+  right: 1vw;
+  top: 5px;
+  font-size: 1.4rem;
+  border: 2px solid white;
+  padding: 12px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 5px;
+
+}
+.nature{
+  color: white;
+  font-size: 110px;
+  display: block;
+  text-align: center;
+  margin-top: 200px;
+  font-family: 'Hind', sans-serif;
+
+}
+header::before{
+  background-image: url("header-hero-1.jpg");
+  background-repeat: no-repeat;
+  content: "";
+  position: absolute;
+  width: 100vw;
+  height: 750px;
+  z-index: -1;
+  top: 0px;
+}
+.best{
+    height: 200px;
+    width: 45vw;
+    display: block;
+    margin: auto;
+    font-size: 30px;
+    margin-top: 250px;
+    text-align: center;
+
+}
+.deer{
+    background-image: url("contact-hero.jpg");
+    width: 70vw;
+    height: 550px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+}
+.our{
+    width: 75vw;
+    height: 200px;
+    display: flex;
+    margin: auto;
+    
+    justify-content: space-around;
+}
+.mission{
+ 
+  width: 34vw;
+  height: 200px;
+}
+.value{
+   
+    width: 34vw;
+    height: 200px;
+}
+.strive{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.aim{
+    font-size: 18px;
+    padding: 15px;
+}
+.creat{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.inspire{
+    font-size: 18px;
+    padding: 15px;
+    justify-content: center;
+}
+.comma{
+  width: 100vw;
+  height: 420px;
+  background-color: rgb(233, 236, 243);
+}
+.blank{
+  width: 100vw;
+  height: 70px;
+
+}
+.ommas{
+  height: 40px;
+  width: 50px;
+  display: block;
+  margin: auto;
+   margin-bottom: 30px;
+   margin-top: 20px;
+  background-image: url("quotes.svg");
+  background-repeat: no-repeat;
+
+}
+.original{
+  text-align: center;
+ font-size: 25px;
+}
+.jane{
+  width: 65px;
+  height: 65px;
+  background-image: url("avatar_on_about1.png");
+  background-repeat: no-repeat;
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+}
+.miller{
+  margin-top: 10px;
+  text-align: center;
+}
+.last{
+  width: 100vw;
+  height: 100px;
+ 
+  display: flex;
+  flex-direction: row;
+}
+.navigation{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.navigation li{
+  font-size:20px;
+  padding: 15px;
+ 
+}
+.pogolast{
+    height: 88px;  
+    width: 88px;
+    background-image: url("logo-green.svg");
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: 15px;
+
+}
+.tayler{
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 245px;
+
+}
